@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("main-title").textContent = "I'm DOM Toretto, Welcome to my page."
 
   // Part 2
-
+  document.querySelector("body").style.backgroundColor = "#fda1fe";
 
   // Part 3
 

@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.querySelector("body").style.backgroundColor = "#fda1fe";
 
   // Part 3
-
-
+  const favThings = document.getElementById("favorite-things");
+  favThings.removeChild(favThings.lastElementChild);
   // Part 4
 
 

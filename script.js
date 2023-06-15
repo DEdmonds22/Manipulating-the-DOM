@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Do all of your work inside the document.addEventListener  
 
   // Part 1
-
+  document.getElementById("main-title").textContent = "I'm DOM Toretto, Welcome to my page."
 
   // Part 2
 

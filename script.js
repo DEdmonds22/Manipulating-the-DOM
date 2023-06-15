@@ -26,8 +26,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const favThings = document.getElementById("favorite-things");
   favThings.removeChild(favThings.lastElementChild);
   // Part 4
-
-
+  const specialTitle = document.querySelectorAll(".special-title");
+  for ( let item of specialTitle) {
+    item.style.fontSize = "2rem";
+  }
   // Part 5
 
 

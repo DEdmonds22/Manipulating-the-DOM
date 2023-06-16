@@ -51,8 +51,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   newP.textContent= "I DROVE A NAVY SHIP BLIND-FOLDED!";
   newDiv.appendChild(newP)
   // Part 8
-
-
+  document.querySelector("#quote-title").addEventListener("click", (event) => {
+    randomQuote();
+  })
   // Part 9
 
 

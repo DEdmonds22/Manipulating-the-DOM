@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     item.style.fontSize = "2rem";
   }
   // Part 5
-
-
+  const raceListUl = document.getElementById("past-races");
+  raceListUl.removeChild(raceListUl.children[3]);
   // Part 6
 
 

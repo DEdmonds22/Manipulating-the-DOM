@@ -38,8 +38,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
   newLiEl.textContent = "Annapolis";
   raceListUl.appendChild(newLiEl);
   // Part 7
+  const mainEl = document.querySelector(".main");
+  const newDiv = document.createElement("div");
+  newDiv.classList.add("blog-post", "purple");
+  mainEl.appendChild(newDiv);
 
+  const newH = document.createElement("h1");
+  newH.textContent = "Annapolis";
+  newDiv.appendChild(newH);
 
+  const newP = document.createElement("p");
+  newP.textContent= "I DROVE A NAVY SHIP BLIND-FOLDED!";
+  newDiv.appendChild(newP)
   // Part 8
 
 

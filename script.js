@@ -55,8 +55,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     randomQuote();
   })
   // Part 9
-
-
-
-
+  const allBlogPost = document.querySelectorAll(".blog-post");
+  for (let post of allBlogPost) {
+    post.addEventListener("mouseout", (event) => {
+      event.currentTarget.classList.toggle("purple");
+    })
+    post.addEventListener("mouseenter", (event) => {
+            event.stopPropagation();
+      event.currentTarget.classList.toggle('red');
+    })
+  }
 });

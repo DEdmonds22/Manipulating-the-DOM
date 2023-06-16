@@ -34,8 +34,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const raceListUl = document.getElementById("past-races");
   raceListUl.removeChild(raceListUl.children[3]);
   // Part 6
-
-
+  const newLiEl = document.createElement('li');
+  newLiEl.textContent = "Annapolis";
+  raceListUl.appendChild(newLiEl);
   // Part 7
 
 
